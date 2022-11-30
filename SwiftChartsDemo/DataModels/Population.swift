@@ -13,6 +13,24 @@ struct Population: Identifiable {
     var count: Double
     var id = UUID()
     
+    static var totalPopulationCounts: [Population] {
+        var population: [Population] = []
+        
+        let groupedPopulation = Dictionary(grouping: allPopulation, by: { $0.ageGroup })
+        for key in groupedPopulation.keys.sorted(by: { $0 < $1 }) {
+            guard let ageGroup = groupedPopulation[key]
+            else { continue }
+            
+            let totalCount = ageGroup.reduce(0.0) { partialResult, value in
+                return partialResult + value.count
+            }
+            
+            population.append(Population(ageGroup: key, gender: "All", count: totalCount))
+        }
+        
+        return population
+    }
+
     static var allPopulation: [Population] = [
         Population(ageGroup: "91-100", gender: "Male", count: 0.53),
         Population(ageGroup: "91-100", gender: "Female", count: 1.30),

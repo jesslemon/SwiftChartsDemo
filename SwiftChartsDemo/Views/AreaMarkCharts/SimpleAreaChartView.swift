@@ -8,8 +8,8 @@
 import Charts
 import SwiftUI
 
-struct PlainAreaChartView: View {
-    @State var cheeseburgers = Food.cheeseburgerCosts
+struct SimpleAreaChartView: View {
+    @State var cheeseburgers = Food.cheeseburgerPrices
 
     var body: some View {
         Chart(cheeseburgers) {
@@ -17,11 +17,14 @@ struct PlainAreaChartView: View {
                 .foregroundStyle(Color.red)
                 .opacity(0.5)
         }
+        .padding()
+        .frame(height: 300)
+        .navigationTitle(ChartTypeExample.simpleArea.displayTitle)
     }
 }
 
-struct PlainAreaChartView_Previews: PreviewProvider {
+struct SimpleAreaChartView_Previews: PreviewProvider {
     static var previews: some View {
-        PlainAreaChartView()
+        SimpleAreaChartView()
     }
 }

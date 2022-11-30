@@ -19,34 +19,7 @@ struct Weather: Identifiable {
     static var today = Date()
 
     static var thisWeeksWeatherSyracuse: [Weather] {
-        return [Weather(city: "Syracuse",
-                        date: Calendar.autoupdatingCurrent.date(byAdding: .day, value: -3, to: today) ?? today,
-                        maximumTemperature: Double.random(in: 30..<46),
-                        minimumTemperature: Double.random(in: 15..<30)),
-                Weather(city: "Syracuse",
-                        date: Calendar.autoupdatingCurrent.date(byAdding: .day, value: -2, to: today) ?? today,
-                        maximumTemperature: Double.random(in: 30..<46),
-                        minimumTemperature: Double.random(in: 15..<30)),
-                Weather(city: "Syracuse",
-                        date: Calendar.autoupdatingCurrent.date(byAdding: .day, value: -1, to: today) ?? today,
-                        maximumTemperature: Double.random(in: 30..<46),
-                        minimumTemperature: Double.random(in: 15..<30)),
-                Weather(city: "Syracuse",
-                        date: today,
-                        maximumTemperature: Double.random(in: 30..<46),
-                        minimumTemperature: Double.random(in: 15..<30)),
-                Weather(city: "Syracuse",
-                        date: Calendar.autoupdatingCurrent.date(byAdding: .day, value: 1, to: today) ?? today,
-                        maximumTemperature: Double.random(in: 30..<46),
-                        minimumTemperature: Double.random(in: 15..<30)),
-                Weather(city: "Syracuse",
-                        date: Calendar.autoupdatingCurrent.date(byAdding: .day, value: 2, to: today) ?? today,
-                        maximumTemperature: Double.random(in: 30..<46),
-                        minimumTemperature: Double.random(in: 15..<30)),
-                Weather(city: "Syracuse",
-                        date: Calendar.autoupdatingCurrent.date(byAdding: .day, value: 3, to: today) ?? today,
-                        maximumTemperature: Double.random(in: 30..<46),
-                        minimumTemperature: Double.random(in: 15..<30))]
+        return thisWeeksWeatherSyracuseOrlando.filter { $0.city == "Syracuse" }
     }
     
     static var thisWeeksWeatherSyracuseOrlando: [Weather] {

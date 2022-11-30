@@ -7,37 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F79829F2936572000F8DA40 /* TimeSheetBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F79829E2936572000F8DA40 /* TimeSheetBarChart.swift */; };
+		2F7982A12936614F00F8DA40 /* TimeEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7982A02936614F00F8DA40 /* TimeEntry.swift */; };
+		2F7982A32936773200F8DA40 /* SoundBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7982A22936773200F8DA40 /* SoundBarChart.swift */; };
+		2F7982A5293677D100F8DA40 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7982A4293677D100F8DA40 /* Sound.swift */; };
+		2F7982A729367C4200F8DA40 /* ScreenTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7982A629367C4200F8DA40 /* ScreenTime.swift */; };
+		2F7982A929367F8200F8DA40 /* ScreenTimeBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7982A829367F8200F8DA40 /* ScreenTimeBarChart.swift */; };
+		2F7982AB293687D900F8DA40 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7982AA293687D900F8DA40 /* Storage.swift */; };
+		2F7982AD2936D13B00F8DA40 /* PointLineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7982AC2936D13B00F8DA40 /* PointLineChart.swift */; };
+		2F7982AF2937045700F8DA40 /* GradientLineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7982AE2937045700F8DA40 /* GradientLineChart.swift */; };
+		2F7982B12937092800F8DA40 /* MultipleLineThresholdChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7982B02937092800F8DA40 /* MultipleLineThresholdChart.swift */; };
+		2F7982B3293711FA00F8DA40 /* PointAverageChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7982B2293711FA00F8DA40 /* PointAverageChart.swift */; };
 		2FE3FBAF2935194C0008FB33 /* SwiftChartsDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBAE2935194C0008FB33 /* SwiftChartsDemoApp.swift */; };
 		2FE3FBB12935194C0008FB33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBB02935194C0008FB33 /* ContentView.swift */; };
 		2FE3FBB32935194D0008FB33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FE3FBB22935194D0008FB33 /* Assets.xcassets */; };
 		2FE3FBB62935194D0008FB33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FE3FBB52935194D0008FB33 /* Preview Assets.xcassets */; };
 		2FE3FBBE293519CD0008FB33 /* Toy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBBD293519CD0008FB33 /* Toy.swift */; };
-		2FE3FBC129351B010008FB33 /* PlainBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBC029351B010008FB33 /* PlainBarChartView.swift */; };
-		2FE3FBC329351CDA0008FB33 /* StackedBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBC229351CDA0008FB33 /* StackedBarChartView.swift */; };
 		2FE3FBC529352F3D0008FB33 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBC429352F3D0008FB33 /* Food.swift */; };
-		2FE3FBC729352FEE0008FB33 /* PlainAreaChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBC629352FEE0008FB33 /* PlainAreaChartView.swift */; };
+		2FE3FBC729352FEE0008FB33 /* SimpleAreaChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBC629352FEE0008FB33 /* SimpleAreaChartView.swift */; };
 		2FE3FBC9293537E70008FB33 /* StackedAreaChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBC8293537E70008FB33 /* StackedAreaChartView.swift */; };
 		2FE3FBCB29353B0E0008FB33 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBCA29353B0E0008FB33 /* Weather.swift */; };
 		2FE3FBCD29353CDB0008FB33 /* RangeAreaChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBCC29353CDB0008FB33 /* RangeAreaChartView.swift */; };
-		2FE3FBCF29353F870008FB33 /* PlainLineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBCE29353F870008FB33 /* PlainLineChartView.swift */; };
-		2FE3FBD1293540870008FB33 /* MultipleLinesChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBD0293540870008FB33 /* MultipleLinesChartView.swift */; };
-		2FE3FBD32935429B0008FB33 /* PlainPointChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBD22935429B0008FB33 /* PlainPointChartView.swift */; };
-		2FE3FBD5293542EF0008FB33 /* StackedPointFamiliesChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBD4293542EF0008FB33 /* StackedPointFamiliesChartView.swift */; };
-		2FE3FBD7293545B80008FB33 /* PointLineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBD6293545B80008FB33 /* PointLineChartView.swift */; };
-		2FE3FBD9293546510008FB33 /* HeatMapChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBD8293546510008FB33 /* HeatMapChartView.swift */; };
+		2FE3FBCF29353F870008FB33 /* SimpleLineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBCE29353F870008FB33 /* SimpleLineChart.swift */; };
+		2FE3FBD1293540870008FB33 /* MultipleLineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBD0293540870008FB33 /* MultipleLineChart.swift */; };
+		2FE3FBD32935429B0008FB33 /* SimplePointChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBD22935429B0008FB33 /* SimplePointChart.swift */; };
+		2FE3FBD5293542EF0008FB33 /* StackedPointChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBD4293542EF0008FB33 /* StackedPointChart.swift */; };
+		2FE3FBD9293546510008FB33 /* HeatMapChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBD8293546510008FB33 /* HeatMapChart.swift */; };
 		2FE3FBDB293546820008FB33 /* MatrixEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBDA293546820008FB33 /* MatrixEntry.swift */; };
-		2FE3FBDD293548090008FB33 /* PlainRectangleMarkChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBDC293548090008FB33 /* PlainRectangleMarkChartView.swift */; };
+		2FE3FBDD293548090008FB33 /* SimpleRectangleChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBDC293548090008FB33 /* SimpleRectangleChart.swift */; };
 		2FE3FBDF2935492E0008FB33 /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBDE2935492E0008FB33 /* Coordinates.swift */; };
-		2FE3FBE1293549DC0008FB33 /* RectanglePointChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBE0293549DC0008FB33 /* RectanglePointChartView.swift */; };
-		2FE3FBE3293559D40008FB33 /* PlainRuleMarksChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBE2293559D40008FB33 /* PlainRuleMarksChartView.swift */; };
-		2FE3FBE529355B640008FB33 /* StackedRuleMarksChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBE429355B640008FB33 /* StackedRuleMarksChartView.swift */; };
-		2FE3FBE729355BC00008FB33 /* BarRuleChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBE629355BC00008FB33 /* BarRuleChartView.swift */; };
-		2FE3FBE929355E0D0008FB33 /* OneDBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBE829355E0D0008FB33 /* OneDBarChartView.swift */; };
-		2FE3FBEB29355F590008FB33 /* IntervalBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBEA29355F590008FB33 /* IntervalBarChartView.swift */; };
-		2FE3FBED293561850008FB33 /* StackedIntervalBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBEC293561850008FB33 /* StackedIntervalBarChartView.swift */; };
+		2FE3FBE1293549DC0008FB33 /* RectanglePointChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBE0293549DC0008FB33 /* RectanglePointChart.swift */; };
+		2FE3FBE3293559D40008FB33 /* SimpleRuleMarkChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBE2293559D40008FB33 /* SimpleRuleMarkChart.swift */; };
+		2FE3FBE529355B640008FB33 /* StackedRuleMarkChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBE429355B640008FB33 /* StackedRuleMarkChart.swift */; };
+		2FE3FBE929355E0D0008FB33 /* StorageBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBE829355E0D0008FB33 /* StorageBarChartView.swift */; };
 		2FE3FBFA293566B00008FB33 /* AllChartTypesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBF9293566B00008FB33 /* AllChartTypesListView.swift */; };
 		2FE3FBFC2935670E0008FB33 /* ChartTypeExamplesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBFB2935670E0008FB33 /* ChartTypeExamplesListView.swift */; };
-		2FE3FBFE29356D4D0008FB33 /* ChartTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBFD29356D4D0008FB33 /* ChartTypes.swift */; };
+		2FE3FBFE29356D4D0008FB33 /* ChartType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBFD29356D4D0008FB33 /* ChartType.swift */; };
 		2FE3FC0029357C470008FB33 /* PyramidBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FBFF29357C470008FB33 /* PyramidBarChart.swift */; };
 		2FE3FC02293581F20008FB33 /* Population.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FC01293581F20008FB33 /* Population.swift */; };
 		2FE3FC042935831F0008FB33 /* SingleBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3FC032935831F0008FB33 /* SingleBarChart.swift */; };
@@ -47,38 +52,43 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F79829E2936572000F8DA40 /* TimeSheetBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSheetBarChart.swift; sourceTree = "<group>"; };
+		2F7982A02936614F00F8DA40 /* TimeEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeEntry.swift; sourceTree = "<group>"; };
+		2F7982A22936773200F8DA40 /* SoundBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundBarChart.swift; sourceTree = "<group>"; };
+		2F7982A4293677D100F8DA40 /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		2F7982A629367C4200F8DA40 /* ScreenTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTime.swift; sourceTree = "<group>"; };
+		2F7982A829367F8200F8DA40 /* ScreenTimeBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTimeBarChart.swift; sourceTree = "<group>"; };
+		2F7982AA293687D900F8DA40 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		2F7982AC2936D13B00F8DA40 /* PointLineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointLineChart.swift; sourceTree = "<group>"; };
+		2F7982AE2937045700F8DA40 /* GradientLineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientLineChart.swift; sourceTree = "<group>"; };
+		2F7982B02937092800F8DA40 /* MultipleLineThresholdChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleLineThresholdChart.swift; sourceTree = "<group>"; };
+		2F7982B2293711FA00F8DA40 /* PointAverageChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointAverageChart.swift; sourceTree = "<group>"; };
 		2FE3FBAB2935194C0008FB33 /* SwiftChartsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftChartsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FE3FBAE2935194C0008FB33 /* SwiftChartsDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftChartsDemoApp.swift; sourceTree = "<group>"; };
 		2FE3FBB02935194C0008FB33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2FE3FBB22935194D0008FB33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FE3FBB52935194D0008FB33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2FE3FBBD293519CD0008FB33 /* Toy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toy.swift; sourceTree = "<group>"; };
-		2FE3FBC029351B010008FB33 /* PlainBarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainBarChartView.swift; sourceTree = "<group>"; };
-		2FE3FBC229351CDA0008FB33 /* StackedBarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackedBarChartView.swift; sourceTree = "<group>"; };
 		2FE3FBC429352F3D0008FB33 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
-		2FE3FBC629352FEE0008FB33 /* PlainAreaChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainAreaChartView.swift; sourceTree = "<group>"; };
+		2FE3FBC629352FEE0008FB33 /* SimpleAreaChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAreaChartView.swift; sourceTree = "<group>"; };
 		2FE3FBC8293537E70008FB33 /* StackedAreaChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackedAreaChartView.swift; sourceTree = "<group>"; };
 		2FE3FBCA29353B0E0008FB33 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		2FE3FBCC29353CDB0008FB33 /* RangeAreaChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeAreaChartView.swift; sourceTree = "<group>"; };
-		2FE3FBCE29353F870008FB33 /* PlainLineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainLineChartView.swift; sourceTree = "<group>"; };
-		2FE3FBD0293540870008FB33 /* MultipleLinesChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleLinesChartView.swift; sourceTree = "<group>"; };
-		2FE3FBD22935429B0008FB33 /* PlainPointChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainPointChartView.swift; sourceTree = "<group>"; };
-		2FE3FBD4293542EF0008FB33 /* StackedPointFamiliesChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackedPointFamiliesChartView.swift; sourceTree = "<group>"; };
-		2FE3FBD6293545B80008FB33 /* PointLineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointLineChartView.swift; sourceTree = "<group>"; };
-		2FE3FBD8293546510008FB33 /* HeatMapChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatMapChartView.swift; sourceTree = "<group>"; };
+		2FE3FBCE29353F870008FB33 /* SimpleLineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleLineChart.swift; sourceTree = "<group>"; };
+		2FE3FBD0293540870008FB33 /* MultipleLineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleLineChart.swift; sourceTree = "<group>"; };
+		2FE3FBD22935429B0008FB33 /* SimplePointChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePointChart.swift; sourceTree = "<group>"; };
+		2FE3FBD4293542EF0008FB33 /* StackedPointChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackedPointChart.swift; sourceTree = "<group>"; };
+		2FE3FBD8293546510008FB33 /* HeatMapChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatMapChart.swift; sourceTree = "<group>"; };
 		2FE3FBDA293546820008FB33 /* MatrixEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixEntry.swift; sourceTree = "<group>"; };
-		2FE3FBDC293548090008FB33 /* PlainRectangleMarkChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainRectangleMarkChartView.swift; sourceTree = "<group>"; };
+		2FE3FBDC293548090008FB33 /* SimpleRectangleChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleRectangleChart.swift; sourceTree = "<group>"; };
 		2FE3FBDE2935492E0008FB33 /* Coordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinates.swift; sourceTree = "<group>"; };
-		2FE3FBE0293549DC0008FB33 /* RectanglePointChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectanglePointChartView.swift; sourceTree = "<group>"; };
-		2FE3FBE2293559D40008FB33 /* PlainRuleMarksChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainRuleMarksChartView.swift; sourceTree = "<group>"; };
-		2FE3FBE429355B640008FB33 /* StackedRuleMarksChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackedRuleMarksChartView.swift; sourceTree = "<group>"; };
-		2FE3FBE629355BC00008FB33 /* BarRuleChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarRuleChartView.swift; sourceTree = "<group>"; };
-		2FE3FBE829355E0D0008FB33 /* OneDBarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneDBarChartView.swift; sourceTree = "<group>"; };
-		2FE3FBEA29355F590008FB33 /* IntervalBarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalBarChartView.swift; sourceTree = "<group>"; };
-		2FE3FBEC293561850008FB33 /* StackedIntervalBarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackedIntervalBarChartView.swift; sourceTree = "<group>"; };
+		2FE3FBE0293549DC0008FB33 /* RectanglePointChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectanglePointChart.swift; sourceTree = "<group>"; };
+		2FE3FBE2293559D40008FB33 /* SimpleRuleMarkChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleRuleMarkChart.swift; sourceTree = "<group>"; };
+		2FE3FBE429355B640008FB33 /* StackedRuleMarkChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackedRuleMarkChart.swift; sourceTree = "<group>"; };
+		2FE3FBE829355E0D0008FB33 /* StorageBarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageBarChartView.swift; sourceTree = "<group>"; };
 		2FE3FBF9293566B00008FB33 /* AllChartTypesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllChartTypesListView.swift; sourceTree = "<group>"; };
 		2FE3FBFB2935670E0008FB33 /* ChartTypeExamplesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartTypeExamplesListView.swift; sourceTree = "<group>"; };
-		2FE3FBFD29356D4D0008FB33 /* ChartTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartTypes.swift; sourceTree = "<group>"; };
+		2FE3FBFD29356D4D0008FB33 /* ChartType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartType.swift; sourceTree = "<group>"; };
 		2FE3FBFF29357C470008FB33 /* PyramidBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PyramidBarChart.swift; sourceTree = "<group>"; };
 		2FE3FC01293581F20008FB33 /* Population.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Population.swift; sourceTree = "<group>"; };
 		2FE3FC032935831F0008FB33 /* SingleBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleBarChart.swift; sourceTree = "<group>"; };
@@ -143,8 +153,12 @@
 				2FE3FBCA29353B0E0008FB33 /* Weather.swift */,
 				2FE3FBDA293546820008FB33 /* MatrixEntry.swift */,
 				2FE3FBDE2935492E0008FB33 /* Coordinates.swift */,
-				2FE3FBFD29356D4D0008FB33 /* ChartTypes.swift */,
 				2FE3FC01293581F20008FB33 /* Population.swift */,
+				2F7982A02936614F00F8DA40 /* TimeEntry.swift */,
+				2F7982A4293677D100F8DA40 /* Sound.swift */,
+				2F7982A629367C4200F8DA40 /* ScreenTime.swift */,
+				2F7982AA293687D900F8DA40 /* Storage.swift */,
+				2FE3FBFD29356D4D0008FB33 /* ChartType.swift */,
 			);
 			path = DataModels;
 			sourceTree = "<group>";
@@ -153,12 +167,11 @@
 			isa = PBXGroup;
 			children = (
 				2FE3FBF4293563E20008FB33 /* AreaMarkCharts */,
+				2FE3FBEE293563700008FB33 /* BarMarkCharts */,
 				2FE3FBF3293563D40008FB33 /* RuleMarkCharts */,
 				2FE3FBF2293563C50008FB33 /* PointMarkCharts */,
 				2FE3FBF1293563B60008FB33 /* LineMarkCharts */,
-				2FE3FBF0293563A90008FB33 /* ComboMarkCharts */,
 				2FE3FBEF2935638F0008FB33 /* RectangleMarkCharts */,
-				2FE3FBEE293563700008FB33 /* BarMarkCharts */,
 				2FE3FBF9293566B00008FB33 /* AllChartTypesListView.swift */,
 				2FE3FBFB2935670E0008FB33 /* ChartTypeExamplesListView.swift */,
 			);
@@ -173,11 +186,10 @@
 				2FE3FC032935831F0008FB33 /* SingleBarChart.swift */,
 				2FE3FC052935892E0008FB33 /* SingleBarThresholdChart.swift */,
 				2FE3FC0929358DC20008FB33 /* ScrollingBarChart.swift */,
-				2FE3FBEC293561850008FB33 /* StackedIntervalBarChartView.swift */,
-				2FE3FBEA29355F590008FB33 /* IntervalBarChartView.swift */,
-				2FE3FBC229351CDA0008FB33 /* StackedBarChartView.swift */,
-				2FE3FBC029351B010008FB33 /* PlainBarChartView.swift */,
-				2FE3FBE829355E0D0008FB33 /* OneDBarChartView.swift */,
+				2F79829E2936572000F8DA40 /* TimeSheetBarChart.swift */,
+				2F7982A22936773200F8DA40 /* SoundBarChart.swift */,
+				2F7982A829367F8200F8DA40 /* ScreenTimeBarChart.swift */,
+				2FE3FBE829355E0D0008FB33 /* StorageBarChartView.swift */,
 			);
 			path = BarMarkCharts;
 			sourceTree = "<group>";
@@ -185,27 +197,21 @@
 		2FE3FBEF2935638F0008FB33 /* RectangleMarkCharts */ = {
 			isa = PBXGroup;
 			children = (
-				2FE3FBDC293548090008FB33 /* PlainRectangleMarkChartView.swift */,
-				2FE3FBD8293546510008FB33 /* HeatMapChartView.swift */,
+				2FE3FBDC293548090008FB33 /* SimpleRectangleChart.swift */,
+				2FE3FBD8293546510008FB33 /* HeatMapChart.swift */,
+				2FE3FBE0293549DC0008FB33 /* RectanglePointChart.swift */,
 			);
 			path = RectangleMarkCharts;
-			sourceTree = "<group>";
-		};
-		2FE3FBF0293563A90008FB33 /* ComboMarkCharts */ = {
-			isa = PBXGroup;
-			children = (
-				2FE3FBE0293549DC0008FB33 /* RectanglePointChartView.swift */,
-				2FE3FBD6293545B80008FB33 /* PointLineChartView.swift */,
-				2FE3FBE629355BC00008FB33 /* BarRuleChartView.swift */,
-			);
-			path = ComboMarkCharts;
 			sourceTree = "<group>";
 		};
 		2FE3FBF1293563B60008FB33 /* LineMarkCharts */ = {
 			isa = PBXGroup;
 			children = (
-				2FE3FBCE29353F870008FB33 /* PlainLineChartView.swift */,
-				2FE3FBD0293540870008FB33 /* MultipleLinesChartView.swift */,
+				2FE3FBCE29353F870008FB33 /* SimpleLineChart.swift */,
+				2FE3FBD0293540870008FB33 /* MultipleLineChart.swift */,
+				2F7982AC2936D13B00F8DA40 /* PointLineChart.swift */,
+				2F7982AE2937045700F8DA40 /* GradientLineChart.swift */,
+				2F7982B02937092800F8DA40 /* MultipleLineThresholdChart.swift */,
 			);
 			path = LineMarkCharts;
 			sourceTree = "<group>";
@@ -213,8 +219,9 @@
 		2FE3FBF2293563C50008FB33 /* PointMarkCharts */ = {
 			isa = PBXGroup;
 			children = (
-				2FE3FBD22935429B0008FB33 /* PlainPointChartView.swift */,
-				2FE3FBD4293542EF0008FB33 /* StackedPointFamiliesChartView.swift */,
+				2FE3FBD22935429B0008FB33 /* SimplePointChart.swift */,
+				2FE3FBD4293542EF0008FB33 /* StackedPointChart.swift */,
+				2F7982B2293711FA00F8DA40 /* PointAverageChart.swift */,
 			);
 			path = PointMarkCharts;
 			sourceTree = "<group>";
@@ -222,8 +229,8 @@
 		2FE3FBF3293563D40008FB33 /* RuleMarkCharts */ = {
 			isa = PBXGroup;
 			children = (
-				2FE3FBE2293559D40008FB33 /* PlainRuleMarksChartView.swift */,
-				2FE3FBE429355B640008FB33 /* StackedRuleMarksChartView.swift */,
+				2FE3FBE2293559D40008FB33 /* SimpleRuleMarkChart.swift */,
+				2FE3FBE429355B640008FB33 /* StackedRuleMarkChart.swift */,
 			);
 			path = RuleMarkCharts;
 			sourceTree = "<group>";
@@ -233,7 +240,7 @@
 			children = (
 				2FE3FBC8293537E70008FB33 /* StackedAreaChartView.swift */,
 				2FE3FBCC29353CDB0008FB33 /* RangeAreaChartView.swift */,
-				2FE3FBC629352FEE0008FB33 /* PlainAreaChartView.swift */,
+				2FE3FBC629352FEE0008FB33 /* SimpleAreaChartView.swift */,
 			);
 			path = AreaMarkCharts;
 			sourceTree = "<group>";
@@ -309,39 +316,44 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FE3FBB12935194C0008FB33 /* ContentView.swift in Sources */,
+				2F7982B3293711FA00F8DA40 /* PointAverageChart.swift in Sources */,
+				2F79829F2936572000F8DA40 /* TimeSheetBarChart.swift in Sources */,
+				2F7982AF2937045700F8DA40 /* GradientLineChart.swift in Sources */,
+				2F7982A729367C4200F8DA40 /* ScreenTime.swift in Sources */,
 				2FE3FC02293581F20008FB33 /* Population.swift in Sources */,
-				2FE3FBD32935429B0008FB33 /* PlainPointChartView.swift in Sources */,
-				2FE3FBE529355B640008FB33 /* StackedRuleMarksChartView.swift in Sources */,
-				2FE3FBC729352FEE0008FB33 /* PlainAreaChartView.swift in Sources */,
+				2FE3FBD32935429B0008FB33 /* SimplePointChart.swift in Sources */,
+				2FE3FBE529355B640008FB33 /* StackedRuleMarkChart.swift in Sources */,
+				2FE3FBC729352FEE0008FB33 /* SimpleAreaChartView.swift in Sources */,
+				2F7982A929367F8200F8DA40 /* ScreenTimeBarChart.swift in Sources */,
 				2FE3FBCD29353CDB0008FB33 /* RangeAreaChartView.swift in Sources */,
-				2FE3FBDD293548090008FB33 /* PlainRectangleMarkChartView.swift in Sources */,
+				2FE3FBDD293548090008FB33 /* SimpleRectangleChart.swift in Sources */,
 				2FE3FC0A29358DC20008FB33 /* ScrollingBarChart.swift in Sources */,
-				2FE3FBED293561850008FB33 /* StackedIntervalBarChartView.swift in Sources */,
-				2FE3FBD1293540870008FB33 /* MultipleLinesChartView.swift in Sources */,
-				2FE3FBCF29353F870008FB33 /* PlainLineChartView.swift in Sources */,
-				2FE3FBD5293542EF0008FB33 /* StackedPointFamiliesChartView.swift in Sources */,
-				2FE3FBE729355BC00008FB33 /* BarRuleChartView.swift in Sources */,
+				2FE3FBD1293540870008FB33 /* MultipleLineChart.swift in Sources */,
+				2FE3FBCF29353F870008FB33 /* SimpleLineChart.swift in Sources */,
+				2FE3FBD5293542EF0008FB33 /* StackedPointChart.swift in Sources */,
+				2F7982A5293677D100F8DA40 /* Sound.swift in Sources */,
 				2FE3FBC9293537E70008FB33 /* StackedAreaChartView.swift in Sources */,
-				2FE3FBE3293559D40008FB33 /* PlainRuleMarksChartView.swift in Sources */,
+				2FE3FBE3293559D40008FB33 /* SimpleRuleMarkChart.swift in Sources */,
 				2FE3FBC529352F3D0008FB33 /* Food.swift in Sources */,
 				2FE3FBCB29353B0E0008FB33 /* Weather.swift in Sources */,
-				2FE3FBC329351CDA0008FB33 /* StackedBarChartView.swift in Sources */,
 				2FE3FC0029357C470008FB33 /* PyramidBarChart.swift in Sources */,
 				2FE3FBFA293566B00008FB33 /* AllChartTypesListView.swift in Sources */,
-				2FE3FBFE29356D4D0008FB33 /* ChartTypes.swift in Sources */,
+				2FE3FBFE29356D4D0008FB33 /* ChartType.swift in Sources */,
 				2FE3FBAF2935194C0008FB33 /* SwiftChartsDemoApp.swift in Sources */,
+				2F7982A12936614F00F8DA40 /* TimeEntry.swift in Sources */,
+				2F7982A32936773200F8DA40 /* SoundBarChart.swift in Sources */,
 				2FE3FBDF2935492E0008FB33 /* Coordinates.swift in Sources */,
+				2F7982AB293687D900F8DA40 /* Storage.swift in Sources */,
 				2FE3FBBE293519CD0008FB33 /* Toy.swift in Sources */,
 				2FE3FC0829358AE80008FB33 /* CumulativeBarChart.swift in Sources */,
 				2FE3FC062935892E0008FB33 /* SingleBarThresholdChart.swift in Sources */,
-				2FE3FBEB29355F590008FB33 /* IntervalBarChartView.swift in Sources */,
 				2FE3FC042935831F0008FB33 /* SingleBarChart.swift in Sources */,
-				2FE3FBC129351B010008FB33 /* PlainBarChartView.swift in Sources */,
-				2FE3FBE1293549DC0008FB33 /* RectanglePointChartView.swift in Sources */,
-				2FE3FBD9293546510008FB33 /* HeatMapChartView.swift in Sources */,
+				2FE3FBE1293549DC0008FB33 /* RectanglePointChart.swift in Sources */,
+				2F7982B12937092800F8DA40 /* MultipleLineThresholdChart.swift in Sources */,
+				2FE3FBD9293546510008FB33 /* HeatMapChart.swift in Sources */,
 				2FE3FBFC2935670E0008FB33 /* ChartTypeExamplesListView.swift in Sources */,
-				2FE3FBD7293545B80008FB33 /* PointLineChartView.swift in Sources */,
-				2FE3FBE929355E0D0008FB33 /* OneDBarChartView.swift in Sources */,
+				2F7982AD2936D13B00F8DA40 /* PointLineChart.swift in Sources */,
+				2FE3FBE929355E0D0008FB33 /* StorageBarChartView.swift in Sources */,
 				2FE3FBDB293546820008FB33 /* MatrixEntry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

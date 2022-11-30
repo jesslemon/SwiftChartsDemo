@@ -8,7 +8,7 @@
 import Charts
 import SwiftUI
 
-struct HeatMapChartView: View {
+struct HeatMapChart: View {
     @State var allEntries = MatrixEntry.allEntries
 
     var body: some View {
@@ -16,11 +16,14 @@ struct HeatMapChartView: View {
             RectangleMark(x: .value("Positive", $0.positive), y: .value("Negative", $0.negative))
                 .foregroundStyle(by: .value("Number", $0.number))
         }
+        .padding()
+        .frame(height: 300)
+        .navigationTitle(ChartTypeExample.heatMap.displayTitle)
     }
 }
 
-struct HeatMapChartView_Previews: PreviewProvider {
+struct HeatMapChart_Previews: PreviewProvider {
     static var previews: some View {
-        HeatMapChartView()
+        HeatMapChart()
     }
 }

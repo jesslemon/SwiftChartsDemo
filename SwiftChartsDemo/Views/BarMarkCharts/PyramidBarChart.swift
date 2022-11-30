@@ -19,7 +19,7 @@ struct PyramidBarChart: View {
         .chartXAxis(.hidden)
         .padding()
         .frame(height: 300)
-        .navigationTitle("Pyramid Bar Chart")
+        .navigationTitle(ChartTypeExample.pyramidBar.displayTitle)
     }
 }
 

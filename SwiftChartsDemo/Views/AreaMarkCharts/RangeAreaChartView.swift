@@ -15,6 +15,9 @@ struct RangeAreaChartView: View {
         Chart(allWeather) {
             AreaMark(x: .value("Date", $0.date), yStart: .value("Minimum Temperature", $0.minimumTemperature), yEnd: .value("Maximum Temperature", $0.maximumTemperature))
         }
+        .padding()
+        .frame(height: 300)
+        .navigationTitle(ChartTypeExample.rangeArea.displayTitle)
     }
 }
 

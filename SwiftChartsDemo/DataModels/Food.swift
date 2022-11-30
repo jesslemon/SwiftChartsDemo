@@ -19,7 +19,7 @@ struct Food: Identifiable {
         self.date = Calendar.autoupdatingCurrent.date(from: DateComponents(year: year)) ?? Date()
     }
     
-    static var cheeseburgerCosts: [Food] {
+    static var cheeseburgerPrices: [Food] {
         return [Food(name: "Cheeseburger", price: 0.21, year: 1960),
                 Food(name: "Cheeseburger", price: 0.18, year: 1970),
                 Food(name: "Cheeseburger", price: 0.34, year: 1980),
@@ -29,7 +29,7 @@ struct Food: Identifiable {
                 Food(name: "Cheeseburger", price: 1.00, year: 2020)]
     }
     
-    static var cheeseburgerCostsByItem: [Food] {
+    static var cheeseburgerPricesByItem: [Food] {
         return [Food(name: "Burger", price: 0.09, year: 1960),
                 Food(name: "Cheese", price: 0.05, year: 1960),
                 Food(name: "Bun", price: 0.07, year: 1960),
