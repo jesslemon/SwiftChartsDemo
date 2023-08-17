@@ -47,10 +47,12 @@ enum ChartType: CaseIterable, Identifiable {
 }
 
 enum ChartTypeExample: Identifiable {
+    case donut
     case rangeArea
     case simpleArea
     case stackedArea
     case cumulativeBar
+    case pie
     case pyramidBar
     case screenTimeBar
     case scrollingBar
@@ -77,10 +79,12 @@ enum ChartTypeExample: Identifiable {
     
     var displayTitle: String {
         switch self {
+        case .donut: return "Donut"
         case .rangeArea: return "Range"
         case .simpleArea, .simpleLine, .simplePoint, .simpleRectangle, .simpleRule: return "Simple"
         case .stackedArea, .stackedPoint, .stackedRule: return "Stacked"
         case .cumulativeBar: return "Cumulative"
+        case .pie: return "Pie"
         case .pyramidBar: return "Pyramid"
         case .screenTimeBar: return "Screen Time"
         case .scrollingBar: return "Scrolling"
@@ -101,10 +105,12 @@ enum ChartTypeExample: Identifiable {
 
     @ViewBuilder var destinationView: some View {
         switch self {
+        case .donut: DonutChart()
         case .rangeArea: RangeAreaChartView()
         case .simpleArea: SimpleAreaChartView()
         case .stackedArea: StackedAreaChartView()
         case .cumulativeBar: CumulativeBarChart()
+        case .pie: PieChart()
         case .pyramidBar: PyramidBarChart()
         case .screenTimeBar: ScreenTimeBarChart()
         case .scrollingBar: ScrollingBarChart()
