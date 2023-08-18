@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F2AAB222A8ECCBE001BF95E /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2AAB212A8ECCBE001BF95E /* PieChart.swift */; };
+		2F2AAB242A8ECE2B001BF95E /* DonutChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2AAB232A8ECE2B001BF95E /* DonutChart.swift */; };
 		2F79829F2936572000F8DA40 /* TimeSheetBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F79829E2936572000F8DA40 /* TimeSheetBarChart.swift */; };
 		2F7982A12936614F00F8DA40 /* TimeEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7982A02936614F00F8DA40 /* TimeEntry.swift */; };
 		2F7982A32936773200F8DA40 /* SoundBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7982A22936773200F8DA40 /* SoundBarChart.swift */; };
@@ -52,6 +54,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F2AAB212A8ECCBE001BF95E /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
+		2F2AAB232A8ECE2B001BF95E /* DonutChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutChart.swift; sourceTree = "<group>"; };
 		2F79829E2936572000F8DA40 /* TimeSheetBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSheetBarChart.swift; sourceTree = "<group>"; };
 		2F7982A02936614F00F8DA40 /* TimeEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeEntry.swift; sourceTree = "<group>"; };
 		2F7982A22936773200F8DA40 /* SoundBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundBarChart.swift; sourceTree = "<group>"; };
@@ -108,6 +112,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F2AAB202A8ECC91001BF95E /* PieDonutCharts */ = {
+			isa = PBXGroup;
+			children = (
+				2F2AAB212A8ECCBE001BF95E /* PieChart.swift */,
+				2F2AAB232A8ECE2B001BF95E /* DonutChart.swift */,
+			);
+			path = PieDonutCharts;
+			sourceTree = "<group>";
+		};
 		2FE3FBA22935194C0008FB33 = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +179,7 @@
 		2FE3FBBF29351AF00008FB33 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2F2AAB202A8ECC91001BF95E /* PieDonutCharts */,
 				2FE3FBF4293563E20008FB33 /* AreaMarkCharts */,
 				2FE3FBEE293563700008FB33 /* BarMarkCharts */,
 				2FE3FBF3293563D40008FB33 /* RuleMarkCharts */,
@@ -318,6 +332,7 @@
 				2FE3FBB12935194C0008FB33 /* ContentView.swift in Sources */,
 				2F7982B3293711FA00F8DA40 /* PointAverageChart.swift in Sources */,
 				2F79829F2936572000F8DA40 /* TimeSheetBarChart.swift in Sources */,
+				2F2AAB242A8ECE2B001BF95E /* DonutChart.swift in Sources */,
 				2F7982AF2937045700F8DA40 /* GradientLineChart.swift in Sources */,
 				2F7982A729367C4200F8DA40 /* ScreenTime.swift in Sources */,
 				2FE3FC02293581F20008FB33 /* Population.swift in Sources */,
@@ -345,6 +360,7 @@
 				2FE3FBDF2935492E0008FB33 /* Coordinates.swift in Sources */,
 				2F7982AB293687D900F8DA40 /* Storage.swift in Sources */,
 				2FE3FBBE293519CD0008FB33 /* Toy.swift in Sources */,
+				2F2AAB222A8ECCBE001BF95E /* PieChart.swift in Sources */,
 				2FE3FC0829358AE80008FB33 /* CumulativeBarChart.swift in Sources */,
 				2FE3FC062935892E0008FB33 /* SingleBarThresholdChart.swift in Sources */,
 				2FE3FC042935831F0008FB33 /* SingleBarChart.swift in Sources */,
@@ -491,6 +507,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -520,6 +537,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
