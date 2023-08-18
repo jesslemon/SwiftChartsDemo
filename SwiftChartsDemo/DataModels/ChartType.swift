@@ -11,6 +11,7 @@ enum ChartType: CaseIterable, Identifiable {
     case area
     case bar
     case line
+    case pie
     case point
     case rectangle
     case rule
@@ -22,6 +23,7 @@ enum ChartType: CaseIterable, Identifiable {
         case .area: return "Area"
         case .bar: return "Bar"
         case .line: return "Line"
+        case .pie: return "Pie (new for iOS 17)"
         case .point: return "Point"
         case .rectangle: return "Rectangle"
         case .rule: return "Rule"
@@ -36,6 +38,8 @@ enum ChartType: CaseIterable, Identifiable {
             return [.cumulativeBar, .pyramidBar, .screenTimeBar, .scrollingBar, .singleBar, .singleBarThreshold, .soundBar, .storageBar, .timeSheetBar]
         case .line:
             return [.gradientLine, .multipleLine, .multipleLineThreshold, .pointLine, .simpleLine]
+        case .pie:
+            return [.pie, .donut]
         case .point:
             return [.pointAverage, .simplePoint, .stackedPoint]
         case .rectangle:
