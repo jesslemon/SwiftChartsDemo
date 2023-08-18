@@ -15,11 +15,10 @@ struct DonutChart: View {
         Chart(allStorage) {
             SectorMark(
                 angle: .value("Total Amount", $0.amount),
-                innerRadius: .ratio(0.618 / $0.amount),
-                outerRadius: .inset(10 * $0.amount),
+                innerRadius: .ratio(0.618),
+                outerRadius: .inset(10),
                 angularInset: 1
             )
-            .offset(x: $0.amount)
             .cornerRadius(4)
             .foregroundStyle(by: .value("Category", $0.category))
         }
